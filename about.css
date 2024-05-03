@@ -1,0 +1,85 @@
+body {
+  background-color: #111;
+  color: #ffd700;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  width: 100vw;
+  background-color: #ffd700;
+  color: #000;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 4rem;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.cta-button.important {
+  background-color: #ffd700;
+  color: #000;
+  border: 2px solid #ffd700;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  margin-right: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.cta-button.important:hover {
+  background-color: #000;
+  color: #ffd700;
+  border-bottom: 0;
+}
